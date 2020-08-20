@@ -1,0 +1,85 @@
+body{
+	
+	background-image: radial-gradient(#fff,#ffd6d6);
+    background-color: green
+    background-position: center;	
+    background-size: cover; 
+}
+.header{
+	height: 60px;
+	width: 100%;
+	background-color: #DAAD86;
+	position: ;
+	top: 0;
+	left: 0;
+}
+.logo{
+	font-size: 30px;
+	
+	top: 0;
+	left: 0;
+}
+.person_logo{
+	font-size: 20px;
+	
+	top: 0;
+	right: 0;
+}
+.top_nav{
+	background-color: #659DBD;
+	overflow: hidden;
+}
+.top_nav a{
+	padding :13px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    float: left;
+    color: white;
+}
+.top_nav a:hover{
+	background-color:#ddd;
+	color: black; 
+}
+.side-nav{
+	height: 100%;
+	width: 0;
+	background-color:  #5CDB95;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: #111;
+	overflow-x:hidden;
+	transition: 0.3s; 
+	padding-top: 60px;
+}
+.side-nav a{
+	font-size: 25px;
+	padding: 15px 7px;
+	transition: 0.3s;
+    display: block;
+	text-decoration: none;
+	color: white; 
+}
+.side-nav a:hover{
+	cousor:pointer;
+	color:#f1f1f1; 
+}
+
+.side-nav .closebtn{
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 25px;
+	margin-left:50px;
+}
+@media screen and (max-height: 450px){
+	.side-nav{
+		padding-top: 15px;
+	}
+	.side-nav a{
+		font-size:18px;
+	}
+}
+
+

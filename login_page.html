@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,intial-scale=1">
+	<title>Login and Registration page</title>
+	<link rel="stylesheet"  href="C:\Users\AJAY YADAV\Desktop\Html\css\login_page.css">
+	<script type="text/javascript" src="C:\Users\AJAY YADAV\Desktop\Html\javascript\login_page.js"></script>
+</head>
+<body>
+	<div class='total'>
+		<div class="form">
+		  <div class="btn-box">
+		  	<div id='btn'></div>
+		  	<button type="button" class="btn-1" onclick="login()">login</button>
+		  	<button type="button" class="btn-1" onclick="register()">register</button>
+		  	</div>
+		  	<div class="social-icons">
+		  		<img src="https://en.wikipedia.org/wiki/File:Facebook_f_logo_(2019).svg">
+		  		<img src="https://en.wikipedia.org/wiki/File:Google_%22G%22_Logo.svg">
+		  		<img src="https://en.wikipedia.org/wiki/File:Twitter_bird_logo_2012.svg">
+		  	</div>
+		  	<form id="login" class="input-group">
+		  		<input type="text" class="input" placeholder="User Id" required>
+		  		<input type="text" class="input" placeholder="Enter Password" required>
+		  		 <input type="checkbox" class="check-box"><span>Remember Password</span><br>
+		  		 <div class="forget">
+		  		  <a href="C:\Users\AJAY YADAV\Desktop\Html\forget_page.html">forget password</a>
+		  		 </div>
+		  		<button type="submit" class="submit-btn ">Log In</button>
+		  	</form>
+		  	<form id="register" class="input-group">
+		  		<input type="text" class="input" placeholder="Name" required>
+		  		<input type="email" class="input" placeholder="e-mail" required>
+		  		<input type="password" class="input" placeholder="Enter Password" required>
+		  		<input type="text" class="input" placeholder="Confirm Password" required>
+		  		 <input type="checkbox" class="check-box"><span>I Agree to Terms & Conditions</span>
+		  		<button type="submit" class="submit-btn ">Register</button>
+		  	</form>
+		  	
+		  	</div>	
+		</div>
+	</div>
+<script type="text/javascript">
+	var x=document.getElementById("login");
+	var y=document.getElementById("register");
+	var z=document.getElementById("btn");
+	function login(){
+	  x.style.left="50px";
+		y.style.left="450px";
+		z.style.left="0px";	 
+
+	}
+	function register(){
+		x.style.left="-400px";
+		y.style.left="50px";
+		z.style.left="110px";
+	}
+    
+</script>
+
+
+
+
+
+</body>
+</html>

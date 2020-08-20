@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="intial-scale=1,width=device-width">
+	<title>Welcome to Notes.online</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\AJAY YADAV\Desktop\Html\css\notes_online.css">
+	
+</head>
+<body>
+	<div class="total">
+		<div class="header">
+			<p class="logo">Notes.Online</p>
+			
+			<i class="person_logo" style="font-size: 20px;position: relative;top: 0;right: 0;">&#xf2bd; </i>
+		</div>
+		<div class="top_nav">
+		    <a href="#sub1">subject-1</a>
+			<a href="#sub2">subject-2</a>
+			<a href="#sub3">subject-3</a>
+			<a href="#sub4">subject-4</a>
+			<a href="#sub5">subject-5</a>	
+		</div>
+		<div class="side-nav" id="mysidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+		    <a href="#chp1">chapter-1</a>
+			<a href="#chp2">chapter-2</a>
+			<a href="#chp3">chapter-3</a>
+			<a href="#chp4">chapter-4</a>
+			<a href="#chp5">chapter-5</a>	
+		</div>
+		<span  onclick="opennav()" style="cursor: pointer; font-size:25px; color: #05386B; ">&#9776; </span>
+	</div>
+	<div class="footer">
+		
+	</div>
+	<div id="main">
+		
+	</div>
+
+ 
+</body>
+<script type="text/javascript">
+	function opennav(){
+	getElementById("mysidenav").style.width="250px";
+}
+function closenav(){
+	getElementById("mysidenav").style.width="0";
+}
+</script>
+</html>
